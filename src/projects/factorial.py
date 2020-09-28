@@ -8,9 +8,14 @@ Factorial:
 '''
 
 def factorial(n):
+    ''' setting basecase to 1 because the factorial of 0 is 1.
+            * if n == 0       
+    '''
     if n == 0:
+        ''' return 1 '''
         return 1
     else:
+        ''' return the factorial of n '''
         return n * factorial(n - 1)
 
 
